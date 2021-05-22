@@ -122,6 +122,7 @@ const Home = () => {
         <ImageContainer incorrectAttempts={incorrectAttempts} />
         <TFInputs matchedAlphabets={matchedAlphabets} />
       </View>
+
       {alphabets && (
         <KeyContainer alphabets={alphabets} processInput={processInput} />
       )}
